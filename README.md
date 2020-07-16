@@ -29,3 +29,8 @@ You'll need to create a new node server. Open a new terminal within the project 
 Just make a GET request to {{HOST}}/filteredimage?image_url={{image_url}} and provide image_url as a query parameter.
 
 You will get Response with the filtered image with status code 200
+
+Example:
+Make a GET Req for: http://udacity-image-filter-service-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://fakeimg.pl/1000/
+
+you will have a response with a filtered image
